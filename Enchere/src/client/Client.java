@@ -6,7 +6,10 @@ import java.rmi.server.UnicastRemoteObject;
 
 import serveur.Objet;
 import serveur.Vente;
-
+/**
+ * 
+ *
+ */
 public class Client extends UnicastRemoteObject implements Acheteur {
 
 	private static final long serialVersionUID = 1L;
