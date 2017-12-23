@@ -13,7 +13,7 @@ import java.rmi.registry.LocateRegistry;
 
 public class Serveur{
 
-	private final static int port = 8092;
+	private final static int port = 8098;
 	private static Donnees bdd = new Donnees();
 
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean id="obj1" class="serveur.Objet">
+		<property name="nom" value="Mercedes-Benz" />
+		<property name="description" value="the car of your dreams" />
+		<property name="prixBase" value="23000" />
+		<property name="prixCourant" value="23500" />
+		<property name="disponible" value="true" />
+		<property name="gagnant" value="ME" />
+	</bean>
+
+	<bean id="obj2" class="serveur.Objet">
+		<property name="nom" value="GOT7 Album" />
+		<property name="description" value="the best kpop song of your era" />
+		<property name="prixBase" value="150" />
+		<property name="prixCourant" value="152" />
+		<property name="disponible" value="true" />
+	</bean>
+	
+	<bean id="obj3" class="serveur.Objet">
+		<property name="nom" value="Alma T-shirt" />
+		<property name="description" value="just a t-shirt" />
+		<property name="prixBase" value="15" />
+		<property name="prixCourant" value="16" />
+		<property name="disponible" value="true" />
+		<property name="gagnant" value="" />
+	</bean>
+
+</beans>

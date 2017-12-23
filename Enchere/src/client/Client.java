@@ -13,7 +13,7 @@ import serveur.Vente;
 public class Client extends UnicastRemoteObject implements Acheteur {
 
 	private static final long serialVersionUID = 1L;
-	private static final String adresseServeur = "localhost:8090/enchere";
+	private static final String adresseServeur = "localhost:8098/enchere";
 
 	private String pseudo;
 	private VueClient vue;
