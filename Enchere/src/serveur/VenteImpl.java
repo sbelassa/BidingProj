@@ -19,7 +19,7 @@ public class VenteImpl extends UnicastRemoteObject implements Vente{
 	private List<Acheteur> fileAttente = new ArrayList<Acheteur>();
 	private Map<Acheteur, Integer> enchereTemp = new HashMap<Acheteur, Integer>();
 	private Objet objetCourant;
-	private Stack<Objet> listeObjets;
+	public static Stack<Objet> listeObjets;
 	private Acheteur acheteurCourant;
 	private EtatVente etatVente;
 	private final int clientMin = 2;

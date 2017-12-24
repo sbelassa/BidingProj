@@ -24,6 +24,16 @@ public class Objet implements Serializable{
 		this.gagnant = "";
 	}
 	
+	public Objet(String nom, String description, int prixBase, int pc, boolean dis, String g) {
+		super();
+		this.nom = nom;
+		this.description = description;
+		this.prixBase = prixBase;
+		this.prixCourant = pc;
+		this.disponible = dis;
+		this.gagnant =g;
+	}
+	
 	public String getNom() {
 		return nom;
 	}
